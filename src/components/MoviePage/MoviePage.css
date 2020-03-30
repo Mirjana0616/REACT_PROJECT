@@ -1,0 +1,29 @@
+
+.movie-container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-container h1 {
+    margin: 50px;
+}
+
+.movie-img-and-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.movie-data {
+    margin-left: 50px;
+}
+
+.movie-data p {
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+    padding: 5px;
+}

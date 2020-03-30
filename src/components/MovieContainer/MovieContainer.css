@@ -1,0 +1,15 @@
+
+.to-watch {
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    /* background-color: lawngreen; */
+    margin-bottom: 100px;
+}
+
+.to-watch-section-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}

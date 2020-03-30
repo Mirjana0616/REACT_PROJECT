@@ -1,0 +1,45 @@
+
+.filter {
+    float: right;
+    margin: 0px 20px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+    background-color: rgb(74, 8, 255);
+}
+
+.filter-btn {
+    width: 100%;
+    color: white;
+    background-color: rgb(13, 10, 85);
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+
+.filter ul {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.filter ul li {
+    list-style-type: none;
+    background-color: rgb(6, 4, 44);
+    margin: 2px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.filter ul li:hover {
+    background-color: rgb(13, 10, 85);
+    cursor: pointer;
+}
+
+
+

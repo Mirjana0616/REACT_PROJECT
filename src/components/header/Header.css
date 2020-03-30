@@ -1,0 +1,16 @@
+
+.header {
+    width: 100%;
+    background-color: rgb(74, 8, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    overflow: visible;
+    margin-bottom: 100px;
+}
+
+.header-logo img {
+    width: 80px;
+    margin-left: 13px;
+}

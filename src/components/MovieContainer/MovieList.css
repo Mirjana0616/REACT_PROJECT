@@ -1,0 +1,70 @@
+
+.list-with-items {
+    width: 100%;
+}
+
+.item {
+    background-color: rgb(74, 8, 255);
+    /* width: 100%; */
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.item:hover {
+    background-color: rgb(24, 19, 173);
+}
+
+
+.txt-data {
+    width: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.to-watch-item-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-btn {
+    /* width: 50px; */
+    height: 30px;
+    color: white;
+    background-color: rgb(13, 10, 85);
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* .item-btn:hover {
+    transform: translateY(-3px);
+} */
+
+.special-controls {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.arrow-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none; 
+    color: white;
+    cursor: pointer;
+}
+
